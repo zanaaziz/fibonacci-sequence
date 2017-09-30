@@ -1,16 +1,22 @@
-# Python Fibonacci Sequence Calculation Function
+# Python Fibonacci Sequence Function
 A program that calculates the n-th term of the Fibonacci sequence.
 
 # How It Works
 Let's refer to Fibonacci as 'F' for now.
 Now let's write the formula for it.
 
-Fn = Fn-1 + Fn-2
+F(n) = F(n-1) + F(n-2)
 
 Where:
-- Fn is term number n
-- Fn-1 is the previous term
-- Fn-2 is the term before that (n-2)
+- F(n) is term number n
+- F(n-1) is the previous term
+- F(n-2) is the term before that (n-2)
+
+For example,
+
+F(11) = F(11-1) + (11-2)
+
+F(11) = 89
 
 # Okay, So Where Does The Magic Happen In The Code?
 Well, obviously it's at the function at line 13:
