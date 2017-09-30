@@ -28,6 +28,8 @@ def fibonacci(n):
         return 1
     elif n > 2:
         return fibonacci(n-1) + fibonacci(n-2)
+    else:
+        return "[n must be a positive integer]"
 ```
 
 More specifically though, it happens on line 16 and 17 here:
