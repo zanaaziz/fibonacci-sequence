@@ -40,6 +40,7 @@ More specifically though, it happens on line 16 and 17 here:
 
 - The first if condition just tells the program that the first two terms are both equal to 1.
 - Then if the number we're looking for is greater than 2, it will continue to add the previous two numbers until it reaches that number. In Mathematics this number is referred to as the n-th term.
+- Finally, the else will return a message saying n must be a positive integer (because if n is not 1, not 2 and also not greater than 2, then obviously it's not a positive integer)
 
 # Important Note
 The **lru_cache** package is crucial to making this function do what it's supposed to do without taking 10 years to do it. Without it, the function will slow down substantially if the n-th value is for example, 800.
