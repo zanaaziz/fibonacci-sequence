@@ -15,6 +15,8 @@ def fibonacci(n):
         return 1
     elif n > 2:
         return fibonacci(n-1) + fibonacci(n-2)
+    else:
+        return "[n must be a positive integer]"
 
 # prints only the n-th term
 def print_n(n):
