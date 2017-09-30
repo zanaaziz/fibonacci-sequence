@@ -25,5 +25,5 @@ def print_n_all(n):
     for n in range(1, n+1):
         print("n=" + str(n) + ":", fibonacci(n))
 
-print_n_all(15)
-print_n(15)
+print_n_all(11)
+print_n(11)
