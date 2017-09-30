@@ -3,6 +3,7 @@ A program that calculates the n-th term of the Fibonacci sequence.
 
 # How It Works
 Let's refer to Fibonacci as 'F'.
+
 Now let's write the formula for it.
 
 **F(n) = F(n-1) + F(n-2)**
