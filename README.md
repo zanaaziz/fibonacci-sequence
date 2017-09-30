@@ -11,7 +11,7 @@ Now let's write the formula for it.
 **Where:**
 - F(n) is term number n
 - F(n-1) is the previous term
-- F(n-2) is the term before that (n-2)
+- F(n-2) is the term before that
 
 **For example,**
 
