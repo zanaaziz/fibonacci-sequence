@@ -20,7 +20,7 @@ F(11) = F(11-1) + (11-2)
 F(11) = 89
 
 # Okay, So Where Does The Magic Happen In The Code?
-Well, obviously it's at the function at line 13:
+Well, obviously it's in the function at line 13:
 ```python
 @lru_cache(maxsize = 1000)
 def fibonacci(n):
