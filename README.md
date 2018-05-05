@@ -1,7 +1,6 @@
 # Python Fibonacci Sequence Function
-A program that calculates the n-th term of the Fibonacci sequence.
+The Fibonacci sequence is a series of numbers where a number is found by adding up the two numbers before it.
 
-# How It Works
 Let's refer to Fibonacci as 'F'.
 
 Now let's write the formula for it.
@@ -20,7 +19,6 @@ F(11) = F(11-1) + (11-2)
 F(11) = 89
 
 # Okay, So Where Does The Magic Happen In The Code?
-Well, obviously it's in the function at line 13:
 ```python
 @lru_cache(maxsize = 1000)
 def fibonacci(n):
@@ -32,7 +30,7 @@ def fibonacci(n):
         return "[n must be a positive integer]"
 ```
 
-More specifically though, it happens on line 16 and 17 here:
+This where the most significant condition is tested:
 ```python
     elif n > 2:
         return fibonacci(n-1) + fibonacci(n-2)
