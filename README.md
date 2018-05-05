@@ -2,9 +2,9 @@
 The Fibonacci sequence is a series of numbers where a number is found by adding up the two numbers before it.
 We will now calculate it using Python.
 
-First, let's refer to Fibonacci as 'F'.
+Let's begin by referring to Fibonacci as 'F'.
 
-Now let's write the formula for it.
+Now, let's write the formula for it.
 
 **F(n) = F(n-1) + F(n-2)**
 
