@@ -1,7 +1,8 @@
 # Python Fibonacci Sequence Function
 The Fibonacci sequence is a series of numbers where a number is found by adding up the two numbers before it.
+We will now calculate it using Python.
 
-Let's refer to Fibonacci as 'F'.
+First, let's refer to Fibonacci as 'F'.
 
 Now let's write the formula for it.
 
@@ -30,7 +31,7 @@ def fibonacci(n):
         return "[n must be a positive integer]"
 ```
 
-This where the most significant condition is tested:
+Below, we see the most significant condition:
 ```python
     elif n > 2:
         return fibonacci(n-1) + fibonacci(n-2)
