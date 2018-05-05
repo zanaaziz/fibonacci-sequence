@@ -43,6 +43,6 @@ Below, we see the most significant condition:
 
 # Important Note
 The **lru_cache** package is crucial to making this function do what it's supposed to do without taking 10 years to do it. Without it, the function will slow down substantially if the n-th value is for example, 800.
-That is because in calculating each term, it has to find the sum of the two previous terms, then the two before it, then the two before it...see where this is going.
+That is because in calculating each term, it has to find the sum of the two previous terms, then the two before it, then the two before it...
 
-That's where this package saves the day by caching each value (in our case I picked 1000) as it goes so later on it can just fetch the value rather than re-calculating it.
+That's why this package saves the day by caching each value (in our case I picked 1000) as it goes so later on it can just fetch the value rather than re-calculating it.
